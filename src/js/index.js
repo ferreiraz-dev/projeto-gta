@@ -22,3 +22,20 @@ const elementoPlataformas = document.querySelector(".btn-plataforma .plataformas
 botao.addEventListener("click", () => {
     elementoPlataformas.classList.toggle("ativo");
 });
+
+// Aguarda o carregamento do DOM
+document.addEventListener("DOMContentLoaded", function () {
+    // Seleciona todas as imagens dentro da lista de plataformas
+    const imagens = document.querySelectorAll(".plataformas img");
+
+    // Adiciona evento de clique para cada imagem
+    imagens.forEach((imagem) => {
+        imagem.addEventListener("click", function () {
+            // Obtém o elemento pai `<a>` e redireciona para o link dele
+            const link = this.closest("a");
+            if (link) {
+                window.location.href = link.href;
+            }
+        });
+    });
+});
