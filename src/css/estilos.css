@@ -187,18 +187,18 @@ body {
 }
 
 .compre-ja .btn-plataforma .plataformas a:nth-child(1) {
-	border: 1px solid #02459c;
+	border: 1px solid #00439c;
 }
 
 .compre-ja .btn-plataforma .plataformas a:nth-child(1):hover {
 	background-color: #00439c;
 }
 .compre-ja .btn-plataforma .plataformas a:nth-child(2) {
-	border: 1px solid #387a26;
+	border: 1px solid #397c27;
 }
 
 .compre-ja .btn-plataforma .plataformas a:nth-child(2):hover {
-	background-color: #387a26;
+	background-color: #397c27;
 }
 
 .compre-ja .btn-plataforma .plataformas a:nth-child(3) {
@@ -210,14 +210,14 @@ body {
 }
 
 .compre-ja .btn-plataforma .plataformas a:nth-child(4) {
-	border: 1px solid #387a26;
+	border: 1px solid #397c27;
 }
 
 .compre-ja .btn-plataforma .plataformas a:nth-child(4):hover {
-	background-color: #387a26;
+	background-color: #397c27;
 }
 .compre-ja .btn-plataforma .plataformas a:nth-child(5) {
-	border: 1px solid #fcaf17;
+	border: 1px solid #f5ab17;
 }
 
 .compre-ja .btn-plataforma .plataformas a:nth-child(5):hover {
