@@ -3,6 +3,82 @@ body {
 	color: #fff;
 }
 
+@media (max-width: 1024px) {
+    .cabecalho {
+        padding: 0 40px;
+    }
+
+    .home .informacoes {
+        padding: 40px;
+        max-width: 600px;
+    }
+
+    .compre-ja .cartao {
+        width: 70%;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .cabecalho .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .home .informacoes {
+        padding: 20px;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .btn-comprar, .btn-plataforma {
+        width: 100%;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .compre-ja .cartao {
+        width: 90%;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home .informacoes .titulo {
+        font-size: 35px;
+    }
+
+    .home .informacoes .texto {
+        font-size: 14px;
+    }
+
+    .compre-ja .titulo {
+        font-size: 30px;
+    }
+
+    .compre-ja .cartao {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .btn-comprar, .btn-plataforma {
+        font-size: 18px;
+        padding: 12px;
+    }
+}
+
 .cabecalho {
 	height: 80px;
 	background-color: #0b0b0b;
